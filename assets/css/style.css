@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: #da2789;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  /* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #0a0a0a;
+  }
+  /*applies yellow to <h1> */
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+
+  }/* Hero Style Start */
+.hero {
+    background-image: url("../images/aliciahero.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block
+}
+.hero h2 {
+    position: relative;
+    color: white
+}
+.hero p {
+  color: white
+}
